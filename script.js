@@ -3,7 +3,7 @@ let originalData = [];
 let previousData = [];
 let currentPage = 1;
 let rowsPerPage = 10;
-
+ 
 // Fetch leaderboard data and handle caching
 async function fetchLeaderboardData() {
   try {
